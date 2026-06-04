@@ -1,5 +1,4 @@
-// this is a c++ code to stream on the raspberry pi camera(module 2 currently) to detect the color yellow
-
+// this is a code to track a color object with a usb camera and  a MG996R servo in the x direction angle 
 #include <iostream> // for input and output stream
 #include <opencv2/opencv.hpp> // to use opencv functions
 #include <libcamera_app.hpp> // to use libcamera functions
