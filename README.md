@@ -1,2 +1,2 @@
 # raspberrypi_objectracking_1dof_cpp
-A raspberry pi 1dof object tracking robot using c++,raspberry pi camera module/us camera.Tutorials,stl parts coming later.
+A raspberry pi 1dof object tracking robot using c++,raspberry pi camera module/us camera.Tutorials,stl parts coming later.For now recommended software: lccv( [https://github.com/kbarni/LCCV](https://github.com/kbarni/LCCV.git) ),raspberry pi os,PiPCA9685( https://github.com/barulicm/PiPCA9685.git),And the project was used through ssh using vnc viewer.More update coming up.
