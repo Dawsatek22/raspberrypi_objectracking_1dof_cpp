@@ -1,0 +1,54 @@
+? playlist tutorial video:
+00:00 playlist
+
+?:warning and summaries:
+This is a english list for the Raspberry pi 1 degrees of freedom tracking robot,Links for  tools and materials are more for reference than a nessecary link.You cna find the required tools else if you want,
+,the tutorial is with the raspberry pi camera module in mind but there is also code for usb camera(optional) in repo.But there is no specific usb camera holder currently.
+If there is something wrong please reply if possible.
+
+Required software:
+
+opencv c++ version for the Raspberry Pi ( https://opencv.org/get-started/?utm_source=opcv&utm_medium=home ),lccv for Raspberry Pi camera ( https://github.com/kbarni/LCCV.git ),
+PIPCA9685 software for the Raspberry Pi ( https://github.com/barulicm/PiPCA9685.git ),
+vnc viewer for pc/laptop ( https://www.realvnc.com/en/connect/download/viewer/?lai_sr=0-4&lai_sl=l&lai_p=1&lai_na=488119 ),
+vscode or other editor for c++ and cmake and Raspberry Pi (optional).
+Recomended skills:
+c/c++ programming,ssh into a Raspberry Pi with vnc viewer,
+using opencv in c++,Aquiring 3d printed parts or making parts,
+screwing parts together.Working with 5V power supplies.
+
+Tools and hardware:
+
+1x pc/laptop
+1x wifi access
+1x micro sd card with Raspberry Pi os installed(newest recommended).
+1x MG9685R servo motor ( https://www.google.com/aclk?sa=L&ai=DChsSEwjOpNCx0_WUAxW_2kQHHZCmF3cYACICCAEQKBoCZWY&co=1&ase=2&gclid=Cj0KCQjwrZTRBhDSARIsAHidYffELMxkmnDE0JABOn3ErcR1-FcVfcPNxclglE4ka95okaLcqWub9ecaAusnEALw_wcB&cce=2&category=acrcp_v1_32&sig=AOD64_1CiRqCZi4dvGij6UER7pnWSG7WUw&ctype=5&q=&nis=4&ved=2ahUKEwipjcqx0_WUAxVxgf0HHbCgOTkQ9aACKAB6BAgKEH0&adurl= ).
+1x Raspberry Pi 4 power supply ( https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-45w-usb-c-power-supply-wit-eu-20344?_gl=1*12ps7eb*_up*MQ..*_gs*MQ..&gclid=CjwKCAiAzPy8BhBoEiwAbnM9Ow7ROOUDxP7oLn6GxWahoVa5RTWdGsV1wpKVYhZJ-sgs8RBNt1Ai_RoCTMMQAvD_BwE ).
+1x Raspberry Pi 4 4gb or more board ( https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-4-model-b-4gb-4268?_gl=1*bc9wbe*_up*MQ..*_gs*MQ..&gclid=CjwKCAiAzPy8BhBoEiwAbnM9Ow7ROOUDxP7oLn6GxWahoVa5RTWdGsV1wpKVYhZJ-sgs8RBNt1Ai_RoCTMMQAvD_BwE ).
+1x Raspberry Pi camera module 2 ( https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-camera-accessoires-133/raspberry-pi-camera-module-2-8mp-2359?sort=p.price&order=DESC&_gl=1*1of2sj8*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwrZTRBhDSARIsAHidYffavMRikxQnFvU7oxToOkzNCcFuesgtU1_2adqnptPq7jQGKajFbkUaAvldEALw_wcB&gbraid=0AAAAADuMvucSHW0I8aCGKIBlU8Q1tIGoA ).
+1x Raspberry Pi Camera and Display Cable - 15 pin FFC flex - 30cm (https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/ffc/raspberry-pi-camera-cable-15-pin-fpc-flex-30cm).
+1x Servo Driver HAT for Raspberry Pi - 16ch - 12-bit - I2C or PCA9685 board as alernative  ( https://www.kiwi-electronics.com/en/servo-driver-hat-for-raspberry-pi-16ch-12-bit-i2c-10373?country=NL ).
+3x 20mm m/f dupont wires ( https://www.amazon.nl/Dupont-Jumper-Arduino-Raspberry-projects/dp/B09KGRM98K/ref=asc_df_B09KGRM98K?mcid=dfec802fdd6735938a66728c46ec7c7b&tag=nlshogostdde-21&linkCode=df0&hvadid=710149408226&hvpos=&hvnetw=g&hvrand=8841745687586544422&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9103357&hvtargid=pla-1692860532420&hvocijid=8841745687586544422-B09KGRM98K-&hvexpln=0&gad_source=1&th=1 )
+1x yellow object for testing like a dc tt motor wheel for example( https://www.tinytronics.nl/en/mechanics-and-actuators/parts/wheels/spare-wheel-auto-kit-diy )
+1x m2.5 allen wrench
+1x m3 allen wrench
+1x m4 allen wrench
+
+Screws and nuts and spacers:
+2x m2 nuts
+6x m3 nuts
+2x m4 nuts
+2x m2.5x10+6mm Brass standoff spacers
+2x m2x8mm allen screws.
+4x m2.5x6mm allen screws
+1x m3x6mm allen screws
+2x m3x12mm allen screws
+2x m3x16mm allen screws
+2x m4x16mm allen screws
+
+Cad parts to print(pla recomended):
+1x mg995_bottom.stl
+1x nikodembartnik-216-plate.stl
+1x dt22-226-cam_2-forward.stl
+1x Radek_Janecka-172-RaspberryPi_holder.stl
+1x orp_extender60mm(mg996r_v).stl
