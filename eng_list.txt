@@ -1,9 +1,8 @@
 ? playlist tutorial video:
 00:00 playlist
 
-?:warning and summaries:
-This is a english list for the Raspberry pi 1 degrees of freedom tracking robot,Links for  tools and materials are more for reference than a nessecary link.You cna find the required tools else if you want,
-,the tutorial is with the raspberry pi camera module in mind but there is also code for usb camera(optional) in repo.But there is no specific usb camera holder currently.
+?:Warning and summaries:
+This is a english list for the Raspberry pi 1 degrees of freedom tracking robot,Links for  tools and materials are more for reference than a nessecary link,You can find the required tools else if you want,The tutorial is explained in text so take that in mind,The tutorial is with the raspberry pi camera module in mind but there is also code for a usb camera option in the repo.But there is no specific usb camera holder stl file currently,
 If there is something wrong please reply if possible.
 
 Required software:
