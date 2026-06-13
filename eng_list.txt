@@ -1,5 +1,10 @@
 ? playlist tutorial video:
-00:00 playlist
+00:00 Playlist:
+00:05:Warnings.
+00:09:start to assemble the robot.
+11:48:ssh into the pi and test the code.
+12:56:showing the finished robot.
+13:24:outro.
 
 ?:Warning and summaries:
 This is a english list for the Raspberry pi 1 degrees of freedom tracking robot,Links for  tools and materials are more for reference than a nessecary link,You can find the required tools else if you want,The tutorial is explained in text so take that in mind,The tutorial is with the raspberry pi camera module in mind but there is also code for a usb camera option in the repo.But there is no specific usb camera holder stl file currently,
@@ -51,3 +56,4 @@ Cad parts to print(pla recomended):
 1x dt22-226-cam_2-forward.stl
 1x Radek_Janecka-172-RaspberryPi_holder.stl
 1x orp_extender60mm(mg996r_v).stl
+
